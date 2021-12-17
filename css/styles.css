@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -51,23 +55,21 @@ body {
   gap: 91px;
 }
 
-.selected-product {
-  padding: 4px;
-  text-decoration: none;
+.featured-products-items-list {
   outline: 3px solid transparent;
 }
 
-.selected-product:hover {
+.featured-products-items-list:hover {
   outline: 3px solid transparent;
   opacity: 0.4;
 }
 
-.selected-product:focus {
+.featured-products-items-list:focus {
   outline: 3px solid #6c9e42;
   opacity: 1;
 }
 
-.selected-product:active {
+.featured-products-items-list:active {
   outline: 3px solid transparent;
   opacity: 0.2;
 }
@@ -82,6 +84,7 @@ body {
   font-weight: 700;
   color: #181818;
   background-color: #ffffff;
+  text-decoration: none;
 }
 
 .selected-product p {
@@ -92,15 +95,16 @@ body {
   font-family: "Roboto";
   font-size: 15px;
   line-height: 23px;
-  font-weight: 700;
+  font-weight: 300;
   color: #181818;
   background-color: #ffffff;
 }
 
-p:last-child {
+p:first-child {
   font-size: 17px;
   line-height: 23px;
   font-weight: 700;
+  color: red;
 }
 
 p:last-child {
