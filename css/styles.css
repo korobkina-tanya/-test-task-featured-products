@@ -9,6 +9,7 @@ body {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
 
@@ -47,7 +48,7 @@ a {
 
 .featured-products-items {
   display: grid;
-  grid-template-columns: repeat(4, 294px);
+  grid-template-columns: repeat(4, 295px);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -61,7 +62,7 @@ a {
 
 .featured-products-items-list:hover {
   outline: 3px solid transparent;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .featured-products-items-list:focus {
@@ -71,13 +72,14 @@ a {
 
 .featured-products-items-list:active {
   outline: 3px solid transparent;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .selected-product-title {
   margin: 0;
   padding: 0;
   padding-left: 4px;
+  padding-bottom: 11px;
   font-family: "Roboto";
   font-size: 24px;
   line-height: 26px;
@@ -87,11 +89,22 @@ a {
   text-decoration: none;
 }
 
+.selected-product b {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 9px;
+  padding-left: 4px;
+  font-family: "Roboto";
+  font-size: 17px;
+  line-height: 23px;
+  color: #181818;
+  background-color: #ffffff;
+}
+
 .selected-product p {
   margin: 0;
   padding: 0;
   padding-left: 4px;
-  padding-top: 11px;
   font-family: "Roboto";
   font-size: 15px;
   line-height: 23px;
@@ -100,19 +113,22 @@ a {
   background-color: #ffffff;
 }
 
-p:first-child {
-  font-size: 17px;
-  line-height: 23px;
-  font-weight: 700;
-  color: red;
-}
-
-p:last-child {
+.selected-product span {
+  margin: 0;
+  padding: 0;
+  padding-left: 4px;
+  padding-top: 11px;
+  font-family: "Roboto";
   font-size: 15px;
   line-height: 21px;
   font-weight: 500;
   text-decoration: underline;
-  color: #3546A6;
+  color: #3546a6;
+}
+
+.selected-product span:hover {
+  font-weight: 700;
+  color: #6c9e42;
 }
 
 .selected-product img {
