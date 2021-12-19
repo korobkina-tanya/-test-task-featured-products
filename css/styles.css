@@ -16,6 +16,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -118,9 +124,4 @@ a {
 .selected-product__item:hover span {
   font-weight: 700;
   color: #6c9e42;
-}
-
-.selected-product__item img {
-  max-width: 100%;
-  object-fit: contain;
 }
