@@ -157,18 +157,12 @@ img {
 @media (max-width: 810px) {
   .featured-products__list {
     display: block;
-
-    padding-top: 50px;
-    gap: 91px;
   }
 }
 
 @media (max-width: 375px) {
   .featured-products__list {
     display: block;
-
-    padding-top: 50px;
-    gap: 91px;
   }
 }
 
