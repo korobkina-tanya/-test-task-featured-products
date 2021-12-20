@@ -157,12 +157,14 @@ img {
 @media (max-width: 810px) {
   .featured-products__list {
     display: block;
+    padding-top: 40px;
   }
 }
 
 @media (max-width: 375px) {
   .featured-products__list {
     display: block;
+    padding-top: 30px;
   }
 }
 
