@@ -51,7 +51,7 @@ img {
 
 .featured-products__list {
   display: grid;
-  grid-template-columns: repeat(4, 295px);
+  grid-template-columns: repeat(4, 300px);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -113,7 +113,11 @@ img {
   background-color: #ffffff;
 }
 
-.selected-product__item span {
+.hidden-text {
+  display: none;
+}
+
+.selected-product__link {
   margin: 0;
   padding: 0;
   padding-left: 4px;
@@ -124,7 +128,7 @@ img {
   color: #3546a6;
 }
 
-.selected-product__item:hover span {
+.selected-product__item:hover .selected-product__link {
   font-weight: 700;
   color: #6c9e42;
 }
@@ -180,6 +184,12 @@ img {
   .selected-product__item p {
     font-size: 17px;
     line-height: 27px;
+  }
+}
+
+@media (max-width: 810px) {
+  .hidden-text {
+    display: block;
   }
 }
 
