@@ -41,6 +41,7 @@ img {
 .featured-products-title {
   margin: 0;
   padding: 0;
+  padding-bottom: 51px;
   padding-left: 4px;
   font-size: 60px;
   line-height: 70px;
@@ -61,9 +62,8 @@ img {
 .featured-products__items {
   outline: 3px solid transparent;
   border-bottom: 1px solid #e5e5e5;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* растянуть бы до низу страницы */
+  margin-top: 51px;
+  padding-bottom: 51px;
 }
 
 .featured-products__items:hover {
@@ -154,6 +154,7 @@ img {
   .featured-products-title {
     font-size: 48px;
     line-height: 56px;
+    padding-bottom: 41px;
   }
 }
 
@@ -161,6 +162,7 @@ img {
   .featured-products-title {
     font-size: 24px;
     line-height: 28px;
+    padding-bottom: 30px;
   }
 }
 
@@ -180,7 +182,7 @@ img {
   .featured-products__items {
     border-bottom: 1px solid #e5e5e5;
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -188,7 +190,7 @@ img {
   .featured-products__items {
     border-bottom: 1px solid #e5e5e5;
     margin-top: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
   }
 }
 
